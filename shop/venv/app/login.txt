@@ -1,0 +1,33 @@
+def make_coffee(*options):
+    """make cofee"""
+    ingredients = [' cofee', 'Hot water', 'milk']
+    
+    if options:
+       # ingredients.append(', '.join(options))
+       for option in options:
+           ingredients.append(option)
+
+    print(len(ingredients))
+        
+    print('Started making coffee..\n Getting cup')
+    print('adding{}'.format(', '.join(ingredients)))
+    print('stir the mix')
+    
+    if options:
+        coffee = 'Tasty with {}'.format(', '.join(options))
+    else:
+        coffee = 'Just how you like it'
+            
+        
+    print('Coffee is ready...')
+    
+    return coffee
+    
+def serve_coffee(coffee, person_name):
+    print("--Here's your coffee {} {}. Enjoy!--\n".format(coffee, person_name))
+
+my_coffee = make_coffee()
+serve_coffee (my_coffee, 'Elza')
+
+walter_coffe = make_coffee('cream','salt')
+serve_coffee (walter_coffe, 'walter')
