@@ -12,3 +12,6 @@ class ShopList(object):
             return self.items
         else:
             return 'You cant Remove Nothing'
+
+    def view_list(self)
+        return self.items
