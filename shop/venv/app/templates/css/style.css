@@ -1,0 +1,39 @@
+.box {
+  position: relative;
+  border-radius: 3px;
+  background: rgb(191, 243, 242);
+  border-top: 3px solid #d2d6de;
+  margin-bottom: 20px;
+  width: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border-top-color: #00c0ef;
+}
+.h3 .border {
+    display: inline-block;
+    font-size: 18px;
+    margin: 0;
+    line-height: 1;
+    border-bottom: 1px solid #f4f4f4;
+  }
+
+  .wrapper {
+    width:500px;
+    overflow:hidden;
+   }
+   
+   .left {
+    width:250px;
+    float:left;
+   }
+   
+   .right {
+    width:250px;
+    float:right;
+   }
+
+  ul#nav li.active {
+    color:  #FA191C ;
+    text-decoration:none;
+    }
+
+    
