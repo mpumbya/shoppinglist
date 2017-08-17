@@ -11,5 +11,6 @@ install:
   - "pip install coveralls"
 
 # command to run tests
+pytest test_shoplist.py
 script: coverage run python3 -m unittest
 after_success: coveralls
