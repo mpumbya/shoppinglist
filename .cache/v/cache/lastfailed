@@ -1,0 +1,5 @@
+{
+  "test_shoplist.py::test_add_item_to_empty_shopping_list": true,
+  "test_shoplist.py::test_add_item_to_non_empty_list": true,
+  "test_shoplist.py::test_add_item_to_non_empty_shopping_list": true
+}
